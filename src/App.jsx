@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import ScrollArriba from "./componentes/ScrollArriba";
-import Inicio from "./paginas/inicio";
+import Inicio from "./paginas/Inicio";
 import Login from "./paginas/Login";
 import Registro from "./paginas/Registro";
 import NavBar from "./componentes/Navbar";
