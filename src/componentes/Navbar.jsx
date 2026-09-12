@@ -72,6 +72,16 @@ function Navbar() {
                     Clase 4 - React Router
                   </Link>
                 </li>
+                <li>
+                  <Link to="/clase-5" className="dropdown-item">
+                    Clase 5 - Git y GitHub
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/clase-6" className="dropdown-item disabled" >
+                    Clase 6 - SCRUM con Trello
+                  </Link>
+                </li>
               </ul>
             </li>
 
