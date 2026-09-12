@@ -1,6 +1,8 @@
 import React from "react";
 import "../../estilosPaginas/clase5.css";
 import colaboradoresGithub from "../../assets/clase5/colaboradores-github.jpeg";
+import pullRequest1 from "../../assets/clase5/pull-request-1.png";
+import pullRequest2 from "../../assets/clase5/pull-request-2.png";
 
 function Clase5() {
   return (
@@ -404,10 +406,20 @@ git commit -m "Crear pantalla de login"`}
         </div>
 
         {/* ESPACIO IMAGEN */}
-        <div className="border rounded bg-light p-5 text-center my-4">
-          <span className="text-secondary">
-            Imagen: creación de un Pull Request en GitHub
-          </span>
+        <div className="border rounded bg-light p-3 text-center my-4">
+          <img
+            src={pullRequest1}
+            alt="Agregar colaboradores en GitHub"
+            className="imagen-clase"
+          />
+        </div>
+
+        <div className="border rounded bg-light p-3 text-center my-4">
+          <img
+            src={pullRequest2}
+            alt="Agregar colaboradores en GitHub"
+            className="imagen-clase"
+          />
         </div>
 
         <hr className="my-5" />
