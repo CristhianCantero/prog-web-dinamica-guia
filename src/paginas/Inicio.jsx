@@ -1,7 +1,7 @@
 import React from "react";
 import "../estilosPaginas/inicio.css";
 import { Link } from "react-router-dom";
-import odin from "../assets/odin.jpeg"
+import odin from "../assets/odin.jpeg";
 
 function Inicio() {
   return (
@@ -149,19 +149,39 @@ function Inicio() {
 
           {/* CLASE 5 */}
           <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 5</span>
+
+                <h4 className="card-title fw-bold">Git y GitHub</h4>
+
+                <p className="card-text text-secondary">
+                  Trabajo colaborativo utilizando ramas, commits, Pull Requests
+                  y revisión de cambios en equipos de desarrollo.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-5" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* CLASE 6 */}
+          <div className="col-md-6 col-lg-4">
             <div className="card h-100 shadow-sm border-0 opacity-75">
               <div className="card-body p-4">
                 <span className="badge text-bg-secondary mb-3">
                   Próximamente
                 </span>
 
-                <h4 className="card-title fw-bold">
-                  Componentes reutilizables y Props
-                </h4>
+                <h4 className="card-title fw-bold">SCRUM con Trello</h4>
 
                 <p className="card-text text-secondary">
-                  Reutilización de componentes y envío de información mediante
-                  propiedades.
+                  Organización del trabajo mediante Backlog, Sprint actual,
+                  tareas en proceso, revisión y finalización.
                 </p>
               </div>
 
