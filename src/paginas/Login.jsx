@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import ModalValidacion from "../componentes/modalValidaciones";
+import ModalValidacion from "../componentes/ModalValidaciones";
 import "../estilosPaginas/login.css";
 import spiderman from "../assets/spiderman.jpg"
 
