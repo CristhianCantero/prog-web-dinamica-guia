@@ -1,4 +1,4 @@
-// Este componente sirve como pie de pagina, en el mismo podrían agregar información de contacto, 
+// Este componente sirve como pie de pagina, en el mismo podrían agregar información de contacto,
 // links a redes sociales, o cualquier otro detalle relevante para la aplicación.
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
@@ -30,10 +30,54 @@ function Footer() {
                 </Link>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link text-light" href="#clases">
+              <li className="nav-item dropdown">
+                <a
+                  className="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   Clases
                 </a>
+
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to="/clase-1" className="dropdown-item">
+                      Clase 1 - Introducción a React
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/clase-2" className="dropdown-item">
+                      Clase 2 - Componentes
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/clase-3" className="dropdown-item">
+                      Clase 3 - Bootstrap
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/clase-4" className="dropdown-item">
+                      Clase 4 - React Router
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/clase-5" className="dropdown-item">
+                      Clase 5 - Git y GitHub
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link to="/clase-6" className="dropdown-item">
+                      Clase 6 - SCRUM con Trello
+                    </Link>
+                  </li>
+                </ul>
               </li>
 
               <li className="nav-item">
