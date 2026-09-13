@@ -171,24 +171,22 @@ function Inicio() {
 
           {/* CLASE 6 */}
           <div className="col-md-6 col-lg-4">
-            <div className="card h-100 shadow-sm border-0 opacity-75">
+            <div className="card h-100 shadow-sm border-0">
               <div className="card-body p-4">
-                <span className="badge text-bg-secondary mb-3">
-                  Próximamente
-                </span>
+                <span className="badge text-bg-primary mb-3">Clase 6</span>
 
                 <h4 className="card-title fw-bold">SCRUM con Trello</h4>
 
                 <p className="card-text text-secondary">
-                  Organización del trabajo mediante Backlog, Sprint actual,
-                  tareas en proceso, revisión y finalización.
+                  Organización del proyecto mediante Backlog, Sprints,
+                  seguimiento de tareas y conexión del trabajo con GitHub.
                 </p>
               </div>
 
               <div className="card-footer bg-white border-0 p-4 pt-0">
-                <button className="btn btn-outline-secondary w-100" disabled>
-                  Próximamente
-                </button>
+                <Link to="/clase-6" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
               </div>
             </div>
           </div>
