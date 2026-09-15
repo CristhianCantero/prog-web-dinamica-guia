@@ -214,6 +214,28 @@ function Inicio() {
               </div>
             </div>
           </div>
+
+          {/* CLASE 8 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 8</span>
+
+                <h4 className="card-title fw-bold">useState y eventos</h4>
+
+                <p className="card-text text-secondary">
+                  Uso de estados y eventos para crear interfaces dinámicas que
+                  respondan a las acciones realizadas por el usuario.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-8" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
