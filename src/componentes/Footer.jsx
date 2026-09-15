@@ -83,6 +83,11 @@ function Footer() {
                       Clase 7 - Componentes y Props
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/clase-8" className="dropdown-item">
+                      Clase 8 - useState y eventos
+                    </Link>
+                  </li>
                 </ul>
               </li>
 

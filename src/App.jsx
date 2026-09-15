@@ -13,6 +13,7 @@ import Clase4 from "./paginas/clases/Clase4";
 import Clase5 from "./paginas/clases/Clase5";
 import Clase6 from "./paginas/clases/Clase6";
 import Clase7 from "./paginas/clases/Clase7";
+import Clase8 from "./paginas/clases/Clase8";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             <Route path="/clase-5" element={<Clase5 />} />
             <Route path="/clase-6" element={<Clase6 />} />
             <Route path="/clase-7" element={<Clase7 />} />
+            <Route path="/clase-8" element={<Clase8 />} />
           </Routes>
         </main>
         <Footer />
