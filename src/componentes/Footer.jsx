@@ -77,6 +77,12 @@ function Footer() {
                       Clase 6 - SCRUM con Trello
                     </Link>
                   </li>
+
+                  <li>
+                    <Link to="/clase-7" className="dropdown-item">
+                      Clase 7 - Componentes y Props
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
