@@ -190,6 +190,30 @@ function Inicio() {
               </div>
             </div>
           </div>
+
+          {/* CLASE 7 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 7</span>
+
+                <h4 className="card-title fw-bold">
+                  Componentes reutilizables y Props
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Creación de componentes reutilizables y utilización de Props
+                  para mostrar información diferente sin repetir código.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-7" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
