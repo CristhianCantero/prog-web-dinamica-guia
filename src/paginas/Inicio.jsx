@@ -236,6 +236,29 @@ function Inicio() {
               </div>
             </div>
           </div>
+          {/* CLASE 9 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 9</span>
+
+                <h4 className="card-title fw-bold">
+                  Formularios y validaciones
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Captura de información ingresada por el usuario, manejo de
+                  formularios, eventos y validación de datos.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-9" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -14,6 +14,7 @@ import Clase5 from "./paginas/clases/Clase5";
 import Clase6 from "./paginas/clases/Clase6";
 import Clase7 from "./paginas/clases/Clase7";
 import Clase8 from "./paginas/clases/Clase8";
+import Clase9 from "./paginas/clases/Clase9";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/clase-6" element={<Clase6 />} />
             <Route path="/clase-7" element={<Clase7 />} />
             <Route path="/clase-8" element={<Clase8 />} />
+            <Route path="/clase-9" element={<Clase9 />} /> 
           </Routes>
         </main>
         <Footer />

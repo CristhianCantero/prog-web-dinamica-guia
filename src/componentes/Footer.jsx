@@ -88,6 +88,11 @@ function Footer() {
                       Clase 8 - useState y eventos
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/clase-9" className="dropdown-item">
+                      Clase 9 - Formularios y validaciones
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
