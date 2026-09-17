@@ -97,6 +97,11 @@ function Navbar() {
                     Clase 9 - Formularios y validaciones
                   </Link>
                 </li>
+                <li>
+                  <Link to="/clase-10" className="dropdown-item">
+                    Clase 10 - Arrays, objetos y .map()
+                  </Link>
+                </li>
               </ul>
             </li>
 
