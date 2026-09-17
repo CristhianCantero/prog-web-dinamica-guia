@@ -280,6 +280,29 @@ function Inicio() {
               </div>
             </div>
           </div>
+          {/* CLASE 11 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 11</span>
+
+                <h4 className="card-title fw-bold">
+                  Búsqueda, filtros y tablas
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Búsqueda y filtrado de información utilizando .filter(),
+                  estados y tablas para organizar los resultados.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-11" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

@@ -102,6 +102,11 @@ function Navbar() {
                     Clase 10 - Arrays, objetos y .map()
                   </Link>
                 </li>
+                <li>
+                  <Link to="/clase-11" className="dropdown-item">
+                    Clase 11 - Búsqueda, filtros y tablas
+                  </Link>
+                </li>
               </ul>
             </li>
 
