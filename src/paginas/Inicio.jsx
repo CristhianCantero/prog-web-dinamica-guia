@@ -303,6 +303,27 @@ function Inicio() {
               </div>
             </div>
           </div>
+          {/* CLASE 12 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 12</span>
+
+                <h4 className="card-title fw-bold">CRUD en React</h4>
+
+                <p className="card-text text-secondary">
+                  Creación de un panel administrativo para crear, visualizar,
+                  modificar y cambiar el estado de los datos de una aplicación.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-12" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>

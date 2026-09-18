@@ -107,6 +107,11 @@ function Navbar() {
                     Clase 11 - Búsqueda, filtros y tablas
                   </Link>
                 </li>
+                <li>
+                  <Link to="/clase-12" className="dropdown-item">
+                    Clase 12 - CRUD en React
+                  </Link>
+                </li>
               </ul>
             </li>
 

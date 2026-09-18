@@ -17,6 +17,7 @@ import Clase8 from "./paginas/clases/Clase8";
 import Clase9 from "./paginas/clases/Clase9";
 import Clase10 from "./paginas/clases/Clase10";
 import Clase11 from "./paginas/clases/Clase11";
+import Clase12 from "./paginas/clases/Clase12";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             <Route path="/clase-9" element={<Clase9 />} />
             <Route path="/clase-10" element={<Clase10 />} />
             <Route path="/clase-11" element={<Clase11 />} />
+            <Route path="/clase-12" element={<Clase12 />} />
           </Routes>
         </main>
         <Footer />
