@@ -18,6 +18,15 @@ import Clase9 from "./paginas/clases/Clase9";
 import Clase10 from "./paginas/clases/Clase10";
 import Clase11 from "./paginas/clases/Clase11";
 import Clase12 from "./paginas/clases/Clase12";
+import Clase13 from "./paginas/clases/Clase13";
+import Clase14 from "./paginas/clases/Clase14";
+import Clase15 from "./paginas/clases/Clase15";
+import Clase16 from "./paginas/clases/Clase16";
+import Clase17 from "./paginas/clases/Clase17";
+import Clase18 from "./paginas/clases/Clase18";
+import Clase19 from "./paginas/clases/Clase19";
+import Clase20 from "./paginas/clases/Clase20";
+import Clase21 from "./paginas/clases/Clase21";
 
 function App() {
   return (
@@ -42,6 +51,15 @@ function App() {
             <Route path="/clase-10" element={<Clase10 />} />
             <Route path="/clase-11" element={<Clase11 />} />
             <Route path="/clase-12" element={<Clase12 />} />
+            <Route path="/clase-13" element={<Clase13 />} />
+            <Route path="/clase-14" element={<Clase14 />} />
+            <Route path="/clase-15" element={<Clase15 />} />
+            <Route path="/clase-16" element={<Clase16 />} />
+            <Route path="/clase-17" element={<Clase17 />} />
+            <Route path="/clase-18" element={<Clase18 />} />
+            <Route path="/clase-19" element={<Clase19 />} />
+            <Route path="/clase-20" element={<Clase20 />} />
+            <Route path="/clase-21" element={<Clase21 />} />
           </Routes>
         </main>
         <Footer />

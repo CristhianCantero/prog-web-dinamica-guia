@@ -108,6 +108,51 @@ function Footer() {
                       Clase 12 - CRUD en React
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/clase-13" className="dropdown-item">
+                      Clase 13 - Firebase Authentication I
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-14" className="dropdown-item">
+                      Clase 14 - Firebase Authentication II
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-15" className="dropdown-item">
+                      Clase 15 - Rutas protegidas
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-16" className="dropdown-item">
+                      Clase 16 - Roles y permisos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-17" className="dropdown-item">
+                      Clase 17 - Administración de datos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-18" className="dropdown-item">
+                      Clase 18 - Configuración de Firestore
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-19" className="dropdown-item">
+                      Clase 19 - CRUD con Firestore
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-20" className="dropdown-item">
+                      Clase 20 - Seguridad de datos
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/clase-21" className="dropdown-item">
+                      Clase 21 - Integración y pruebas finales
+                    </Link>
+                  </li>
                 </ul>
               </li>
 

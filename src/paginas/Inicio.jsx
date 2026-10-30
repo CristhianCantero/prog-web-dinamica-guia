@@ -324,6 +324,205 @@ function Inicio() {
               </div>
             </div>
           </div>
+          {/* CLASE 13 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 13</span>
+
+                <h4 className="card-title fw-bold">
+                  Firebase Authentication I
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Registro e inicio de sesión reales con Firebase
+                  Authentication.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-13" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 14 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 14</span>
+
+                <h4 className="card-title fw-bold">
+                  Firebase Authentication II
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Sesiones persistentes y Context API para compartir el
+                  usuario autenticado en toda la app.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-14" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 15 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 15</span>
+
+                <h4 className="card-title fw-bold">Rutas protegidas</h4>
+
+                <p className="card-text text-secondary">
+                  Impedir el acceso a pantallas privadas con React Router y
+                  el contexto de autenticación.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-15" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 16 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 16</span>
+
+                <h4 className="card-title fw-bold">Roles y permisos</h4>
+
+                <p className="card-text text-secondary">
+                  Administración de roles con Firestore y renderizado
+                  condicional según el usuario.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-16" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 17 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 17</span>
+
+                <h4 className="card-title fw-bold">
+                  Administración de datos
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Persistencia de datos, bases relacionales y NoSQL, y por
+                  qué vamos a usar Firestore.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-17" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 18 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 18</span>
+
+                <h4 className="card-title fw-bold">
+                  Configuración de Firestore
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Colecciones, documentos y primeras lecturas de datos
+                  reales desde React.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-18" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 19 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 19</span>
+
+                <h4 className="card-title fw-bold">CRUD con Firestore</h4>
+
+                <p className="card-text text-secondary">
+                  Crear, modificar y eliminar documentos reales conectando
+                  el panel administrativo a Firestore.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-19" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 20 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 20</span>
+
+                <h4 className="card-title fw-bold">Seguridad de datos</h4>
+
+                <p className="card-text text-secondary">
+                  Reglas de seguridad de Firestore según autenticación y
+                  rol del usuario.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-20" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
+          {/* CLASE 21 */}
+          <div className="col-md-6 col-lg-4">
+            <div className="card h-100 shadow-sm border-0">
+              <div className="card-body p-4">
+                <span className="badge text-bg-primary mb-3">Clase 21</span>
+
+                <h4 className="card-title fw-bold">
+                  Integración y pruebas finales
+                </h4>
+
+                <p className="card-text text-secondary">
+                  Checklist final, pruebas con distintos roles y
+                  publicación del proyecto completo.
+                </p>
+              </div>
+
+              <div className="card-footer bg-white border-0 p-4 pt-0">
+                <Link to="/clase-21" className="btn btn-outline-primary w-100">
+                  Ver clase
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
